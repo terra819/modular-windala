@@ -1,0 +1,39 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 5em;
+  height: 5em;
+  padding: 1em;
+  margin: 1rem auto;
+  box-sizing: border-box;
+
+  border-radius: 100%;
+
+  font-size: 1.125em;
+  text-align: center;
+  color: #fff;
+  background-color: #29e;
+
+  cursor: pointer;
+  touch-action: none;
+  user-select: none;
+
+  transition: all 0.3s;
+}
+
+.circle.switch-bg {
+  background-color: #f40;
+}
+
+.circle.large {
+  transform: scale(1.25);
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
